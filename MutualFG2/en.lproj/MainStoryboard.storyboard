@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Yqp-yY-uzI">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Mutual Friends View Controller-->
+        <scene sceneID="Bis-ea-jjq">
+            <objects>
+                <viewController id="PHj-jb-LZz" customClass="MutualFriendsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zYq-Iw-9sA">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="photo.png" translatesAutoresizingMaskIntoConstraints="NO" id="tBO-tU-bPI"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="572" translatesAutoresizingMaskIntoConstraints="NO" id="HKF-Yh-6v5">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="572" id="EXf-zr-dh2"/>
+                                    <constraint firstAttribute="height" constant="175" id="SSn-QL-NBB"/>
+                                </constraints>
+                                <string key="text">Mutual 
+Friends
+Game </string>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="40"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJ0-5t-wUX">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="123" id="pC3-t2-fOW"/>
+                                    <constraint firstAttribute="height" constant="51" id="xr9-GF-ezk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="18"/>
+                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="RcY-yN-ZOL" kind="push" id="c5L-WZ-uK6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tBO-tU-bPI" firstAttribute="leading" secondItem="zYq-Iw-9sA" secondAttribute="leading" type="default" id="9pZ-Ru-wqJ"/>
+                            <constraint firstItem="tBO-tU-bPI" firstAttribute="trailing" secondItem="zYq-Iw-9sA" secondAttribute="trailing" type="default" id="NIN-Uq-F9a"/>
+                            <constraint firstAttribute="bottom" secondItem="qJ0-5t-wUX" secondAttribute="bottom" constant="183" id="UHF-8X-ybK"/>
+                            <constraint firstItem="tBO-tU-bPI" firstAttribute="top" secondItem="zYq-Iw-9sA" secondAttribute="top" type="default" id="Zjt-YD-r5y"/>
+                            <constraint firstItem="tBO-tU-bPI" firstAttribute="bottom" secondItem="zYq-Iw-9sA" secondAttribute="bottom" type="default" id="dyS-WK-8Xo"/>
+                            <constraint firstItem="qJ0-5t-wUX" firstAttribute="centerX" secondItem="HKF-Yh-6v5" secondAttribute="centerX" type="default" id="hn3-0B-z7F"/>
+                            <constraint firstItem="tBO-tU-bPI" firstAttribute="centerX" secondItem="HKF-Yh-6v5" secondAttribute="centerX" type="default" id="vys-Ty-Rfc"/>
+                            <constraint firstItem="HKF-Yh-6v5" firstAttribute="top" secondItem="zYq-Iw-9sA" secondAttribute="top" type="default" id="ykM-Cg-JJf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4T5-cD-RmS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SXc-ux-ska" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="686" y="147"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="zl2-CY-Bqu">
+            <objects>
+                <viewController id="RcY-yN-ZOL" customClass="SCLoginViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TxK-X5-mEU">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="photo.png" translatesAutoresizingMaskIntoConstraints="NO" id="yT9-dG-8Np"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="240" translatesAutoresizingMaskIntoConstraints="NO" id="IYL-DD-V07">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="zqu-BD-LAZ"/>
+                                    <constraint firstAttribute="height" constant="175" id="zwN-L7-rEO"/>
+                                </constraints>
+                                <string key="text">Mutual 
+Friends
+Game </string>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="40"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uih-39-OJ0">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="193" id="22T-UU-itx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="17"/>
+                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Login to Facebook">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="login:" destination="RcY-yN-ZOL" eventType="touchUpInside" id="LUm-2l-eNz"/>
+                                    <segue destination="l4v-UZ-XUW" kind="push" id="0WZ-hl-Hdt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yT9-dG-8Np" firstAttribute="trailing" secondItem="TxK-X5-mEU" secondAttribute="trailing" type="default" id="2Bf-9y-HRa"/>
+                            <constraint firstAttribute="bottom" secondItem="uih-39-OJ0" secondAttribute="bottom" constant="188" id="E5w-CP-Ali"/>
+                            <constraint firstItem="yT9-dG-8Np" firstAttribute="top" secondItem="TxK-X5-mEU" secondAttribute="top" type="default" id="JR1-Ie-7mS"/>
+                            <constraint firstItem="yT9-dG-8Np" firstAttribute="centerX" secondItem="IYL-DD-V07" secondAttribute="centerX" type="default" id="aU6-fQ-qxF"/>
+                            <constraint firstItem="IYL-DD-V07" firstAttribute="centerX" secondItem="uih-39-OJ0" secondAttribute="centerX" type="default" id="u1W-Ie-8li"/>
+                            <constraint firstItem="IYL-DD-V07" firstAttribute="top" secondItem="TxK-X5-mEU" secondAttribute="top" type="default" id="xjd-Jd-wyM"/>
+                            <constraint firstItem="yT9-dG-8Np" firstAttribute="leading" secondItem="TxK-X5-mEU" secondAttribute="leading" type="default" id="yAF-Ok-T3M"/>
+                            <constraint firstItem="yT9-dG-8Np" firstAttribute="bottom" secondItem="TxK-X5-mEU" secondAttribute="bottom" type="default" id="zfQ-Tr-DSf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="nZt-vi-HHV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gb4-ZO-edh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1110" y="147"/>
+        </scene>
+        <!--Mutual Friends View Controller-->
+        <scene sceneID="J8Y-DY-oda">
+            <objects>
+                <viewController id="l4v-UZ-XUW" customClass="MutualFriendsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GJc-Dd-4Yb">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="photo.png" translatesAutoresizingMaskIntoConstraints="NO" id="GFj-Fm-iX3"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="240" translatesAutoresizingMaskIntoConstraints="NO" id="TSb-Sh-hJK">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="C8e-3m-1FF"/>
+                                    <constraint firstAttribute="height" constant="175" id="M9L-MZ-kgO"/>
+                                </constraints>
+                                <string key="text">Mutual 
+Friends
+Game </string>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="40"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Friend's Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gIE-Ij-Olq">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="153" id="RFc-7m-2jL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GFj-Fm-iX3" firstAttribute="trailing" secondItem="GJc-Dd-4Yb" secondAttribute="trailing" type="default" id="B9d-Jd-nz9"/>
+                            <constraint firstItem="GFj-Fm-iX3" firstAttribute="top" secondItem="GJc-Dd-4Yb" secondAttribute="top" type="default" id="GjU-75-D65"/>
+                            <constraint firstItem="GFj-Fm-iX3" firstAttribute="leading" secondItem="GJc-Dd-4Yb" secondAttribute="leading" type="default" id="I58-02-kX9"/>
+                            <constraint firstItem="gIE-Ij-Olq" firstAttribute="centerY" secondItem="GFj-Fm-iX3" secondAttribute="centerY" type="user" id="OYt-v6-ilo"/>
+                            <constraint firstItem="gIE-Ij-Olq" firstAttribute="centerX" secondItem="TSb-Sh-hJK" secondAttribute="centerX" type="default" id="ScT-ti-Z5L"/>
+                            <constraint firstItem="TSb-Sh-hJK" firstAttribute="top" secondItem="GJc-Dd-4Yb" secondAttribute="top" type="default" id="XW9-mW-NTg"/>
+                            <constraint firstItem="gIE-Ij-Olq" firstAttribute="centerX" secondItem="GFj-Fm-iX3" secondAttribute="centerX" type="default" id="fMq-g9-kh0"/>
+                            <constraint firstItem="GFj-Fm-iX3" firstAttribute="bottom" secondItem="GJc-Dd-4Yb" secondAttribute="bottom" type="default" id="oCq-9X-FeO"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hjs-XP-CcF"/>
+                    <connections>
+                        <outlet property="FriendName" destination="OYt-v6-ilo" id="ax0-GO-1Ma"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pYZ-3q-iMO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1540" y="147"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3Cj-vp-swY">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="Yqp-yY-uzI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oPQ-7O-GNW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="PHj-jb-LZz" kind="relationship" relationship="rootViewController" id="mMN-19-3Qu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fmB-en-3sC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="277" y="147"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="photo.png" width="500" height="750"/>
+    </resources>
+    <classes>
+        <class className="MutualFriendsViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MutualFriendsViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="FriendName" candidateClass="NSLayoutConstraint"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="SCLoginViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SCLoginViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="login:"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

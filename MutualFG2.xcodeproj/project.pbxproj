@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		381CC75917558C6000F02E40 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381CC75817558C6000F02E40 /* FacebookSDK.framework */; };
+		381CC75C17558C7400F02E40 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 381CC75A17558C7400F02E40 /* FacebookSDKResources.bundle */; };
+		381CC75D17558C7400F02E40 /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 381CC75B17558C7400F02E40 /* FBUserSettingsViewResources.bundle */; };
+		381CC761175591D400F02E40 /* semanticweb_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 381CC760175591D400F02E40 /* semanticweb_114x114.png */; };
+		381CC763175591E100F02E40 /* semanticweb_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 381CC762175591E100F02E40 /* semanticweb_114x114.png */; };
+		84063BB917552C1600E1D35C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84063BB817552C1600E1D35C /* AdSupport.framework */; };
+		84063BBB17552C1B00E1D35C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84063BBA17552C1B00E1D35C /* Accounts.framework */; };
+		84063BBD17552C2A00E1D35C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84063BBC17552C2A00E1D35C /* libsqlite3.dylib */; };
+		84063BBF17552C3100E1D35C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84063BBE17552C3100E1D35C /* Security.framework */; };
+		84063BC117552C3600E1D35C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84063BC017552C3600E1D35C /* Social.framework */; };
+		84063BC417552F0C00E1D35C /* SCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84063BC317552F0C00E1D35C /* SCLoginViewController.m */; };
+		840B2D6C1754FA7F00F54AC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840B2D6B1754FA7F00F54AC6 /* UIKit.framework */; };
+		840B2D6E1754FA7F00F54AC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840B2D6D1754FA7F00F54AC6 /* Foundation.framework */; };
+		840B2D701754FA7F00F54AC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840B2D6F1754FA7F00F54AC6 /* CoreGraphics.framework */; };
+		840B2D761754FA7F00F54AC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 840B2D741754FA7F00F54AC6 /* InfoPlist.strings */; };
+		840B2D781754FA7F00F54AC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840B2D771754FA7F00F54AC6 /* main.m */; };
+		840B2D7C1754FA7F00F54AC6 /* MutualFriendsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840B2D7B1754FA7F00F54AC6 /* MutualFriendsAppDelegate.m */; };
+		840B2D7E1754FA7F00F54AC6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 840B2D7D1754FA7F00F54AC6 /* Default.png */; };
+		840B2D801754FA7F00F54AC6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 840B2D7F1754FA7F00F54AC6 /* Default@2x.png */; };
+		840B2D821754FA7F00F54AC6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 840B2D811754FA7F00F54AC6 /* Default-568h@2x.png */; };
+		840B2D851754FA7F00F54AC6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840B2D831754FA7F00F54AC6 /* MainStoryboard.storyboard */; };
+		840B2D881754FA7F00F54AC6 /* MutualFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840B2D871754FA7F00F54AC6 /* MutualFriendsViewController.m */; };
+		840B2D901754FA7F00F54AC6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840B2D8F1754FA7F00F54AC6 /* SenTestingKit.framework */; };
+		840B2D911754FA7F00F54AC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840B2D6B1754FA7F00F54AC6 /* UIKit.framework */; };
+		840B2D921754FA7F00F54AC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840B2D6D1754FA7F00F54AC6 /* Foundation.framework */; };
+		840B2D9A1754FA7F00F54AC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 840B2D981754FA7F00F54AC6 /* InfoPlist.strings */; };
+		840B2D9D1754FA7F00F54AC6 /* MutualFG2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840B2D9C1754FA7F00F54AC6 /* MutualFG2Tests.m */; };
+		840B2DA71754FD8A00F54AC6 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 840B2DA61754FD8A00F54AC6 /* photo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840B2D931754FA7F00F54AC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840B2D601754FA7F00F54AC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840B2D671754FA7F00F54AC6;
+			remoteInfo = MutualFG2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		381CC75817558C6000F02E40 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		381CC75A17558C7400F02E40 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKResources.bundle; path = ../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		381CC75B17558C7400F02E40 /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBUserSettingsViewResources.bundle; path = ../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		381CC760175591D400F02E40 /* semanticweb_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = semanticweb_114x114.png; path = ../../semanticweb_114x114.png; sourceTree = "<group>"; };
+		381CC762175591E100F02E40 /* semanticweb_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = semanticweb_114x114.png; sourceTree = "<group>"; };
+		84063BB817552C1600E1D35C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		84063BBA17552C1B00E1D35C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		84063BBC17552C2A00E1D35C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		84063BBE17552C3100E1D35C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		84063BC017552C3600E1D35C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		84063BC217552F0C00E1D35C /* SCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLoginViewController.h; path = ../SCLoginViewController.h; sourceTree = "<group>"; };
+		84063BC317552F0C00E1D35C /* SCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLoginViewController.m; path = ../SCLoginViewController.m; sourceTree = "<group>"; };
+		840B2D681754FA7F00F54AC6 /* MutualFG2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutualFG2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840B2D6B1754FA7F00F54AC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		840B2D6D1754FA7F00F54AC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		840B2D6F1754FA7F00F54AC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		840B2D731754FA7F00F54AC6 /* MutualFG2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MutualFG2-Info.plist"; sourceTree = "<group>"; };
+		840B2D751754FA7F00F54AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		840B2D771754FA7F00F54AC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		840B2D791754FA7F00F54AC6 /* MutualFG2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MutualFG2-Prefix.pch"; sourceTree = "<group>"; };
+		840B2D7A1754FA7F00F54AC6 /* MutualFriendsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutualFriendsAppDelegate.h; sourceTree = "<group>"; };
+		840B2D7B1754FA7F00F54AC6 /* MutualFriendsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutualFriendsAppDelegate.m; sourceTree = "<group>"; };
+		840B2D7D1754FA7F00F54AC6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		840B2D7F1754FA7F00F54AC6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		840B2D811754FA7F00F54AC6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		840B2D841754FA7F00F54AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		840B2D861754FA7F00F54AC6 /* MutualFriendsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutualFriendsViewController.h; sourceTree = "<group>"; };
+		840B2D871754FA7F00F54AC6 /* MutualFriendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutualFriendsViewController.m; sourceTree = "<group>"; };
+		840B2D8E1754FA7F00F54AC6 /* MutualFG2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutualFG2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840B2D8F1754FA7F00F54AC6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		840B2D971754FA7F00F54AC6 /* MutualFG2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MutualFG2Tests-Info.plist"; sourceTree = "<group>"; };
+		840B2D991754FA7F00F54AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		840B2D9B1754FA7F00F54AC6 /* MutualFG2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutualFG2Tests.h; sourceTree = "<group>"; };
+		840B2D9C1754FA7F00F54AC6 /* MutualFG2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutualFG2Tests.m; sourceTree = "<group>"; };
+		840B2DA61754FD8A00F54AC6 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840B2D651754FA7F00F54AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84063BC117552C3600E1D35C /* Social.framework in Frameworks */,
+				84063BBF17552C3100E1D35C /* Security.framework in Frameworks */,
+				84063BBD17552C2A00E1D35C /* libsqlite3.dylib in Frameworks */,
+				84063BBB17552C1B00E1D35C /* Accounts.framework in Frameworks */,
+				84063BB917552C1600E1D35C /* AdSupport.framework in Frameworks */,
+				840B2D6C1754FA7F00F54AC6 /* UIKit.framework in Frameworks */,
+				840B2D6E1754FA7F00F54AC6 /* Foundation.framework in Frameworks */,
+				840B2D701754FA7F00F54AC6 /* CoreGraphics.framework in Frameworks */,
+				381CC75917558C6000F02E40 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840B2D8A1754FA7F00F54AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840B2D901754FA7F00F54AC6 /* SenTestingKit.framework in Frameworks */,
+				840B2D911754FA7F00F54AC6 /* UIKit.framework in Frameworks */,
+				840B2D921754FA7F00F54AC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840B2D5F1754FA7F00F54AC6 = {
+			isa = PBXGroup;
+			children = (
+				381CC762175591E100F02E40 /* semanticweb_114x114.png */,
+				381CC760175591D400F02E40 /* semanticweb_114x114.png */,
+				84063BC017552C3600E1D35C /* Social.framework */,
+				84063BBE17552C3100E1D35C /* Security.framework */,
+				84063BBC17552C2A00E1D35C /* libsqlite3.dylib */,
+				84063BBA17552C1B00E1D35C /* Accounts.framework */,
+				84063BB817552C1600E1D35C /* AdSupport.framework */,
+				840B2D711754FA7F00F54AC6 /* MutualFG2 */,
+				840B2D951754FA7F00F54AC6 /* MutualFG2Tests */,
+				840B2D6A1754FA7F00F54AC6 /* Frameworks */,
+				840B2D691754FA7F00F54AC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840B2D691754FA7F00F54AC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840B2D681754FA7F00F54AC6 /* MutualFG2.app */,
+				840B2D8E1754FA7F00F54AC6 /* MutualFG2Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840B2D6A1754FA7F00F54AC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				381CC75A17558C7400F02E40 /* FacebookSDKResources.bundle */,
+				381CC75B17558C7400F02E40 /* FBUserSettingsViewResources.bundle */,
+				381CC75817558C6000F02E40 /* FacebookSDK.framework */,
+				840B2D6B1754FA7F00F54AC6 /* UIKit.framework */,
+				840B2D6D1754FA7F00F54AC6 /* Foundation.framework */,
+				840B2D6F1754FA7F00F54AC6 /* CoreGraphics.framework */,
+				840B2D8F1754FA7F00F54AC6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		840B2D711754FA7F00F54AC6 /* MutualFG2 */ = {
+			isa = PBXGroup;
+			children = (
+				84063BC217552F0C00E1D35C /* SCLoginViewController.h */,
+				84063BC317552F0C00E1D35C /* SCLoginViewController.m */,
+				840B2D7A1754FA7F00F54AC6 /* MutualFriendsAppDelegate.h */,
+				840B2D7B1754FA7F00F54AC6 /* MutualFriendsAppDelegate.m */,
+				840B2D831754FA7F00F54AC6 /* MainStoryboard.storyboard */,
+				840B2DA61754FD8A00F54AC6 /* photo.png */,
+				840B2D861754FA7F00F54AC6 /* MutualFriendsViewController.h */,
+				840B2D871754FA7F00F54AC6 /* MutualFriendsViewController.m */,
+				840B2D721754FA7F00F54AC6 /* Supporting Files */,
+			);
+			path = MutualFG2;
+			sourceTree = "<group>";
+		};
+		840B2D721754FA7F00F54AC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840B2D731754FA7F00F54AC6 /* MutualFG2-Info.plist */,
+				840B2D741754FA7F00F54AC6 /* InfoPlist.strings */,
+				840B2D771754FA7F00F54AC6 /* main.m */,
+				840B2D791754FA7F00F54AC6 /* MutualFG2-Prefix.pch */,
+				840B2D7D1754FA7F00F54AC6 /* Default.png */,
+				840B2D7F1754FA7F00F54AC6 /* Default@2x.png */,
+				840B2D811754FA7F00F54AC6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840B2D951754FA7F00F54AC6 /* MutualFG2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				840B2D9B1754FA7F00F54AC6 /* MutualFG2Tests.h */,
+				840B2D9C1754FA7F00F54AC6 /* MutualFG2Tests.m */,
+				840B2D961754FA7F00F54AC6 /* Supporting Files */,
+			);
+			path = MutualFG2Tests;
+			sourceTree = "<group>";
+		};
+		840B2D961754FA7F00F54AC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840B2D971754FA7F00F54AC6 /* MutualFG2Tests-Info.plist */,
+				840B2D981754FA7F00F54AC6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840B2D671754FA7F00F54AC6 /* MutualFG2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840B2DA01754FA7F00F54AC6 /* Build configuration list for PBXNativeTarget "MutualFG2" */;
+			buildPhases = (
+				840B2D641754FA7F00F54AC6 /* Sources */,
+				840B2D651754FA7F00F54AC6 /* Frameworks */,
+				840B2D661754FA7F00F54AC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MutualFG2;
+			productName = MutualFG2;
+			productReference = 840B2D681754FA7F00F54AC6 /* MutualFG2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		840B2D8D1754FA7F00F54AC6 /* MutualFG2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840B2DA31754FA7F00F54AC6 /* Build configuration list for PBXNativeTarget "MutualFG2Tests" */;
+			buildPhases = (
+				840B2D891754FA7F00F54AC6 /* Sources */,
+				840B2D8A1754FA7F00F54AC6 /* Frameworks */,
+				840B2D8B1754FA7F00F54AC6 /* Resources */,
+				840B2D8C1754FA7F00F54AC6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840B2D941754FA7F00F54AC6 /* PBXTargetDependency */,
+			);
+			name = MutualFG2Tests;
+			productName = MutualFG2Tests;
+			productReference = 840B2D8E1754FA7F00F54AC6 /* MutualFG2Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840B2D601754FA7F00F54AC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MutualFriends;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Lab Admin";
+			};
+			buildConfigurationList = 840B2D631754FA7F00F54AC6 /* Build configuration list for PBXProject "MutualFG2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 840B2D5F1754FA7F00F54AC6;
+			productRefGroup = 840B2D691754FA7F00F54AC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840B2D671754FA7F00F54AC6 /* MutualFG2 */,
+				840B2D8D1754FA7F00F54AC6 /* MutualFG2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840B2D661754FA7F00F54AC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840B2D761754FA7F00F54AC6 /* InfoPlist.strings in Resources */,
+				840B2D7E1754FA7F00F54AC6 /* Default.png in Resources */,
+				840B2D801754FA7F00F54AC6 /* Default@2x.png in Resources */,
+				840B2D821754FA7F00F54AC6 /* Default-568h@2x.png in Resources */,
+				840B2D851754FA7F00F54AC6 /* MainStoryboard.storyboard in Resources */,
+				840B2DA71754FD8A00F54AC6 /* photo.png in Resources */,
+				381CC75C17558C7400F02E40 /* FacebookSDKResources.bundle in Resources */,
+				381CC75D17558C7400F02E40 /* FBUserSettingsViewResources.bundle in Resources */,
+				381CC761175591D400F02E40 /* semanticweb_114x114.png in Resources */,
+				381CC763175591E100F02E40 /* semanticweb_114x114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840B2D8B1754FA7F00F54AC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840B2D9A1754FA7F00F54AC6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		840B2D8C1754FA7F00F54AC6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840B2D641754FA7F00F54AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840B2D781754FA7F00F54AC6 /* main.m in Sources */,
+				840B2D7C1754FA7F00F54AC6 /* MutualFriendsAppDelegate.m in Sources */,
+				840B2D881754FA7F00F54AC6 /* MutualFriendsViewController.m in Sources */,
+				84063BC417552F0C00E1D35C /* SCLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840B2D891754FA7F00F54AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840B2D9D1754FA7F00F54AC6 /* MutualFG2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840B2D941754FA7F00F54AC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840B2D671754FA7F00F54AC6 /* MutualFG2 */;
+			targetProxy = 840B2D931754FA7F00F54AC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		840B2D741754FA7F00F54AC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840B2D751754FA7F00F54AC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		840B2D831754FA7F00F54AC6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840B2D841754FA7F00F54AC6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		840B2D981754FA7F00F54AC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840B2D991754FA7F00F54AC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840B2D9E1754FA7F00F54AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		840B2D9F1754FA7F00F54AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840B2DA11754FA7F00F54AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../FacebookSDK\"",
+					"\"$(SRCROOT)/../../../Documents/FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MutualFG2/MutualFG2-Prefix.pch";
+				INFOPLIST_FILE = "MutualFG2/MutualFG2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		840B2DA21754FA7F00F54AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../FacebookSDK\"",
+					"\"$(SRCROOT)/../../../Documents/FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MutualFG2/MutualFG2-Prefix.pch";
+				INFOPLIST_FILE = "MutualFG2/MutualFG2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		840B2DA41754FA7F00F54AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MutualFG2.app/MutualFG2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MutualFG2/MutualFG2-Prefix.pch";
+				INFOPLIST_FILE = "MutualFG2Tests/MutualFG2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		840B2DA51754FA7F00F54AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MutualFG2.app/MutualFG2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MutualFG2/MutualFG2-Prefix.pch";
+				INFOPLIST_FILE = "MutualFG2Tests/MutualFG2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840B2D631754FA7F00F54AC6 /* Build configuration list for PBXProject "MutualFG2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840B2D9E1754FA7F00F54AC6 /* Debug */,
+				840B2D9F1754FA7F00F54AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840B2DA01754FA7F00F54AC6 /* Build configuration list for PBXNativeTarget "MutualFG2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840B2DA11754FA7F00F54AC6 /* Debug */,
+				840B2DA21754FA7F00F54AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840B2DA31754FA7F00F54AC6 /* Build configuration list for PBXNativeTarget "MutualFG2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840B2DA41754FA7F00F54AC6 /* Debug */,
+				840B2DA51754FA7F00F54AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840B2D601754FA7F00F54AC6 /* Project object */;
+}
